@@ -21,10 +21,13 @@
   },
   "homepage": "https://github.com/LambdaSchool/node-server-testing#readme",
   "devDependencies": {
+    "eslint": "^6.1.0",
     "jest": "^24.8.0",
     "supertest": "^4.0.2"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "knex": "^0.19.1",
+    "sqlite3": "^4.0.9"
   }
 }
